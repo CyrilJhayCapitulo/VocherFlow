@@ -247,7 +247,7 @@ It contains information about:
 - Prototype limitations
 - Technical implementation concepts
 
-👉 [**Read the full documentation →**](DOCUMENTATION.md)
+👉 [**Read the full documentation →**](docs/DOCUMENTATION.md)
 
 ---
 
@@ -314,4 +314,4 @@ The project is primarily intended to demonstrate **software engineering concepts
 VoucherFlow is actively being developed as a technical demonstration and learning project.
 
 > **Not production-ready.**
-````
+
