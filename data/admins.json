@@ -1,0 +1,16 @@
+[
+  {
+    "id": "adm_001",
+    "email": "admin@voucherflow.com",
+    "name": "Chief Administrator",
+    "role": "admin",
+    "department": "Operations & IT Infrastructure",
+    "phone": "+1 (555) 234-5678",
+    "jobTitle": "Lead Voucher Security Director",
+    "avatarUrl": "",
+    "passwordHash": "aa163422e098f8a463b38e5dedbe08d133d48fac0a8693582a48d3db59cd2a06",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-08-21T01:30:50.433Z",
+    "createdBy": "System Root"
+  }
+]

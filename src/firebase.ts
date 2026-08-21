@@ -1,0 +1,20 @@
+import { initializeApp, getApps, getApp } from 'firebase/app';
+import { getAuth } from 'firebase/auth';
+import { getFirestore } from 'firebase/firestore';
+
+const firebaseConfig = {
+  projectId: "analog-spring-xmbw7",
+  appId: "1:733253300615:web:9d9794d7f43f928b616322",
+  apiKey: "AIzaSyBokf-tpu4VFbCnhQlaq_ZcyH6a9TyuOnk",
+  authDomain: "analog-spring-xmbw7.firebaseapp.com",
+  firestoreDatabaseId: "ai-studio-voucherflow-077eb1dc-aa0a-45a0-badc-fe4543b5190c",
+  storageBucket: "analog-spring-xmbw7.firebasestorage.app",
+  messagingSenderId: "733253300615",
+  measurementId: "",
+  oAuthClientId: "733253300615-26uhm472b4o4r655s163j6fnpl47cd2i.apps.googleusercontent.com",
+  recaptchaSiteKey: ""
+};
+
+export const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
+export const auth = getAuth(app);
+export const firestore = getFirestore(app, firebaseConfig.firestoreDatabaseId || '(default)');

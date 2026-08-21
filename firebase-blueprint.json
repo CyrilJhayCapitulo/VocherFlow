@@ -1,0 +1,62 @@
+{
+  "entities": {
+    "admins": {
+      "title": "Admins",
+      "description": "Administrator accounts and privileges",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "email": { "type": "string" },
+        "name": { "type": "string" },
+        "role": { "type": "string" },
+        "department": { "type": "string" },
+        "jobTitle": { "type": "string" },
+        "phone": { "type": "string" },
+        "avatarUrl": { "type": "string" },
+        "passwordHash": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" },
+        "createdBy": { "type": "string" }
+      },
+      "required": ["id", "email", "name", "role", "passwordHash"]
+    },
+    "vouchers": {
+      "title": "Vouchers",
+      "description": "Digital voucher passes and issuance records",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "code": { "type": "string" },
+        "status": { "type": "string" },
+        "purchaseId": { "type": "string" },
+        "customerReference": { "type": "string" },
+        "voucherType": { "type": "string" },
+        "value": { "type": "number" },
+        "currency": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "expiresAt": { "type": "string" },
+        "redeemedAt": { "type": ["string", "null"] },
+        "redeemedBy": { "type": ["object", "string", "null"] },
+        "createdBy": { "type": "string" },
+        "notes": { "type": "string" },
+        "hash": { "type": "string" }
+      },
+      "required": ["id", "code", "status", "voucherType", "value", "currency", "createdAt", "expiresAt"]
+    },
+    "audit_logs": {
+      "title": "Audit Logs",
+      "description": "Cryptographic tamper-evident operational logs",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "action": { "type": "string" },
+        "voucherCode": { "type": "string" },
+        "status": { "type": "string" },
+        "details": { "type": "string" },
+        "actor": { "type": "string" }
+      },
+      "required": ["id", "timestamp", "action", "voucherCode", "status", "details"]
+    }
+  }
+}

@@ -1,0 +1,225 @@
+[
+  {
+    "id": "log_1787277209151_b3fe11",
+    "timestamp": "2026-08-21T01:53:28.043Z",
+    "action": "REDEEMED",
+    "voucherCode": "VF-8DRU-E42Y-Z962",
+    "voucherId": "vch_mt2ane27_6cce3db0",
+    "status": "SUCCESS",
+    "details": "Voucher redeemed successfully for value 50 USD. Purchase: ORD-2026-72554, Receipt Ref: ADM-MAN-MT2APBS9. Location: Admin Command Center",
+    "actor": "Admin (Manual Override) (ADM-CONSOLE-01)",
+    "terminalId": "ADM-CONSOLE-01",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "log_1787277125648_d1c242",
+    "timestamp": "2026-08-21T01:52:05.648Z",
+    "action": "VALIDATED",
+    "voucherCode": "VF-8DRU-E42Y-Z962",
+    "voucherId": "vch_mt2ane27_6cce3db0",
+    "status": "SUCCESS",
+    "details": "Voucher validated as ACTIVE by Cashier/POS. Title: \"Special Privilege Voucher\", Value: 50",
+    "actor": "Cashier/POS"
+  },
+  {
+    "id": "log_1787277125644_9ed2bc",
+    "timestamp": "2026-08-21T01:52:05.644Z",
+    "action": "VALIDATED",
+    "voucherCode": "VF-8DRU-E42Y-Z962",
+    "voucherId": "vch_mt2ane27_6cce3db0",
+    "status": "SUCCESS",
+    "details": "Voucher validated as ACTIVE by Cashier/POS. Title: \"Special Privilege Voucher\", Value: 50",
+    "actor": "Cashier/POS"
+  },
+  {
+    "id": "log_1787277121999_6ffedf",
+    "timestamp": "2026-08-21T01:52:01.999Z",
+    "action": "VALIDATED",
+    "voucherCode": "VF-8DRU-E42Y-Z962",
+    "voucherId": "vch_mt2ane27_6cce3db0",
+    "status": "SUCCESS",
+    "details": "Voucher validated as ACTIVE by Cashier/POS. Title: \"Special Privilege Voucher\", Value: 50",
+    "actor": "Cashier/POS"
+  },
+  {
+    "id": "log_1787277121995_b4b6d4",
+    "timestamp": "2026-08-21T01:52:01.995Z",
+    "action": "VALIDATED",
+    "voucherCode": "VF-8DRU-E42Y-Z962",
+    "voucherId": "vch_mt2ane27_6cce3db0",
+    "status": "SUCCESS",
+    "details": "Voucher validated as ACTIVE by Cashier/POS. Title: \"Special Privilege Voucher\", Value: 50",
+    "actor": "Cashier/POS"
+  },
+  {
+    "id": "log_1787277117862_b02dc0",
+    "timestamp": "2026-08-21T01:51:57.862Z",
+    "action": "GENERATED",
+    "voucherCode": "VF-8DRU-E42Y-Z962",
+    "voucherId": "vch_mt2ane27_6cce3db0",
+    "status": "SUCCESS",
+    "details": "Generated fixed_amount voucher (50 USD) for Sarah Jenkins (CUST-8812). Purchase/Order: ORD-2026-72554",
+    "actor": "Admin"
+  },
+  {
+    "id": "log_1787277112069_dbf188",
+    "timestamp": "2026-08-21T01:51:52.069Z",
+    "action": "GENERATED",
+    "voucherCode": "VF-M2H3-TUX7-JUVZ",
+    "voucherId": "vch_mt2an9kv_314684db",
+    "status": "SUCCESS",
+    "details": "Generated fixed_amount voucher (50 USD) for Sarah Jenkins (CUST-8812). Purchase/Order: ORD-2026-62323",
+    "actor": "Admin"
+  },
+  {
+    "id": "log_1787277089338_d90c39",
+    "timestamp": "2026-08-21T01:51:29.338Z",
+    "action": "VALIDATED",
+    "voucherCode": "VF-35NK-3NGP-6UR2",
+    "voucherId": "vch_mt2a1ly6_80ebc890",
+    "status": "SUCCESS",
+    "details": "Voucher validated as ACTIVE by Cashier/POS. Title: \"Special Privilege Voucher\", Value: 50",
+    "actor": "Cashier/POS"
+  },
+  {
+    "id": "log_1787277089333_6f4fcd",
+    "timestamp": "2026-08-21T01:51:29.333Z",
+    "action": "VALIDATED",
+    "voucherCode": "VF-35NK-3NGP-6UR2",
+    "voucherId": "vch_mt2a1ly6_80ebc890",
+    "status": "SUCCESS",
+    "details": "Voucher validated as ACTIVE by Cashier/POS. Title: \"Special Privilege Voucher\", Value: 50",
+    "actor": "Cashier/POS"
+  },
+  {
+    "id": "log_1787277084612_efb14b",
+    "timestamp": "2026-08-21T01:51:24.613Z",
+    "action": "VALIDATED",
+    "voucherCode": "VF-35NK-3NGP-6UR2",
+    "voucherId": "vch_mt2a1ly6_80ebc890",
+    "status": "SUCCESS",
+    "details": "Voucher validated as ACTIVE by Cashier/POS. Title: \"Special Privilege Voucher\", Value: 50",
+    "actor": "Cashier/POS"
+  },
+  {
+    "id": "log_1787277084604_d525cc",
+    "timestamp": "2026-08-21T01:51:24.604Z",
+    "action": "VALIDATED",
+    "voucherCode": "VF-35NK-3NGP-6UR2",
+    "voucherId": "vch_mt2a1ly6_80ebc890",
+    "status": "SUCCESS",
+    "details": "Voucher validated as ACTIVE by Cashier/POS. Title: \"Special Privilege Voucher\", Value: 50",
+    "actor": "Cashier/POS"
+  },
+  {
+    "id": "log_1787277043024_55956a",
+    "timestamp": "2026-08-21T01:50:43.024Z",
+    "action": "LOGIN",
+    "voucherCode": "SYSTEM_AUTH",
+    "status": "SUCCESS",
+    "details": "Administrator Chief Administrator (admin@voucherflow.com) logged into Admin Command Center.",
+    "actor": "Chief Administrator"
+  },
+  {
+    "id": "log_1787276152271_82d75f",
+    "timestamp": "2026-08-21T01:35:52.271Z",
+    "action": "CANCELLED",
+    "voucherCode": "VF-3B8Q-9W1Z-5E4R",
+    "voucherId": "vch_002",
+    "status": "WARNING",
+    "details": "Voucher status set to CANCELLED by Admin. Reason: Customer requested cancellation",
+    "actor": "Admin"
+  },
+  {
+    "id": "log_1787276102595_ff40a1",
+    "timestamp": "2026-08-21T01:35:02.595Z",
+    "action": "GENERATED",
+    "voucherCode": "VF-35NK-3NGP-6UR2",
+    "voucherId": "vch_mt2a1ly6_80ebc890",
+    "status": "SUCCESS",
+    "details": "Generated fixed_amount voucher (50 USD) for Sarah Jenkins (CUST-8812). Purchase/Order: ORD-2026-55432",
+    "actor": "Admin"
+  },
+  {
+    "id": "log_1787185346492_33f4ab",
+    "timestamp": "2026-08-20T00:22:26.492Z",
+    "action": "REDEMPTION_COLLISION_BLOCKED",
+    "voucherCode": "VF-7K9P-4MX2-9J7L",
+    "voucherId": "vch_001",
+    "status": "WARNING",
+    "details": "BLOCKED DUPLICATE REDEMPTION ATTEMPT! Voucher was already redeemed on 2026-08-20T00:22:26.491Z at SIM-TERM-01. Incoming attempt from SIM-TERM-05 (Terminal #5) was rejected.",
+    "actor": "Terminal #5",
+    "terminalId": "SIM-TERM-05",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "log_1787185346492_883a8a",
+    "timestamp": "2026-08-20T00:22:26.492Z",
+    "action": "REDEMPTION_COLLISION_BLOCKED",
+    "voucherCode": "VF-7K9P-4MX2-9J7L",
+    "voucherId": "vch_001",
+    "status": "WARNING",
+    "details": "BLOCKED DUPLICATE REDEMPTION ATTEMPT! Voucher was already redeemed on 2026-08-20T00:22:26.491Z at SIM-TERM-01. Incoming attempt from SIM-TERM-04 (Terminal #4) was rejected.",
+    "actor": "Terminal #4",
+    "terminalId": "SIM-TERM-04",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "log_1787185346492_f53c31",
+    "timestamp": "2026-08-20T00:22:26.492Z",
+    "action": "REDEMPTION_COLLISION_BLOCKED",
+    "voucherCode": "VF-7K9P-4MX2-9J7L",
+    "voucherId": "vch_001",
+    "status": "WARNING",
+    "details": "BLOCKED DUPLICATE REDEMPTION ATTEMPT! Voucher was already redeemed on 2026-08-20T00:22:26.491Z at SIM-TERM-01. Incoming attempt from SIM-TERM-03 (Terminal #3) was rejected.",
+    "actor": "Terminal #3",
+    "terminalId": "SIM-TERM-03",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "log_1787185346492_ba5699",
+    "timestamp": "2026-08-20T00:22:26.492Z",
+    "action": "REDEMPTION_COLLISION_BLOCKED",
+    "voucherCode": "VF-7K9P-4MX2-9J7L",
+    "voucherId": "vch_001",
+    "status": "WARNING",
+    "details": "BLOCKED DUPLICATE REDEMPTION ATTEMPT! Voucher was already redeemed on 2026-08-20T00:22:26.491Z at SIM-TERM-01. Incoming attempt from SIM-TERM-02 (Terminal #2) was rejected.",
+    "actor": "Terminal #2",
+    "terminalId": "SIM-TERM-02",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "log_1787185346491_e54e73",
+    "timestamp": "2026-08-20T00:22:26.491Z",
+    "action": "REDEEMED",
+    "voucherCode": "VF-7K9P-4MX2-9J7L",
+    "voucherId": "vch_001",
+    "status": "SUCCESS",
+    "details": "Voucher redeemed successfully for value 50 USD. Order reference: SIM-ORD-1787185346491-1. Location: Simulated Lane 1",
+    "actor": "Terminal #1 (SIM-TERM-01)",
+    "terminalId": "SIM-TERM-01",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "log_001",
+    "timestamp": "2026-07-31T00:22:05.532Z",
+    "action": "GENERATED",
+    "voucherCode": "VF-2T5Y-8U0I-3O7P",
+    "voucherId": "vch_004",
+    "status": "SUCCESS",
+    "details": "Generated $75 fixed amount voucher for David Chen (Order ORD-2026-88001)",
+    "actor": "System / Automated Checkout",
+    "terminalId": "API-SRV-01"
+  },
+  {
+    "id": "log_002",
+    "timestamp": "2026-08-19T22:22:05.532Z",
+    "action": "REDEEMED",
+    "voucherCode": "VF-2T5Y-8U0I-3O7P",
+    "voucherId": "vch_004",
+    "status": "SUCCESS",
+    "details": "Single-use voucher redeemed successfully. Order reference: RCPT-88902",
+    "actor": "Alex Rivera (Cashier)",
+    "terminalId": "POS-TERM-01"
+  }
+]

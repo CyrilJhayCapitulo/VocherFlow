@@ -1,0 +1,6 @@
+{
+  "name": "VoucherFlow",
+  "description": "Secure voucher generation, cryptographic validation, atomic single-use redemption engine, and merchant administration dashboard.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
