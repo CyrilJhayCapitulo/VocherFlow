@@ -6,8 +6,6 @@ VoucherFlow is a full-stack web application prototype that demonstrates the mana
 
 The project was built as a **portfolio and learning project** to explore full-stack web development, REST APIs, database integration, authentication, voucher validation, and secure single-use redemption.
 
-> ⚠️ **Prototype Project:** VoucherFlow is **not production-ready** and is not intended to process real customer data, payments, or commercial transactions.
-
 ![Customer Voucher Verification](docs/screenshots/01-customer-voucher-verification.png) 
 ---
 
