@@ -8,7 +8,7 @@ The project was built as a **portfolio and learning project** to explore full-st
 
 > ⚠️ **Prototype Project:** VoucherFlow is **not production-ready** and is not intended to process real customer data, payments, or commercial transactions.
 
-![Customer Voucher Verification](screenshots/01-customer-voucher-verification.png)
+![Customer Voucher Verification](screenshots/01-customer-voucher-verification.png) 
 ---
 
 ## ✨ Features
